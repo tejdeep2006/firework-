@@ -33,7 +33,7 @@ A beautiful, responsive website for Sri Ayyappa Crackers fireworks shop featurin
    - Go to `http://localhost:5000`
    - Or `http://127.0.0.1:5000`
 
-## 📱 Product Categories
+##  Product Categories
 
 - **Sparklers & Ground Items** (9 products)
 - **Aerial Items** (5 products)  
@@ -41,13 +41,13 @@ A beautiful, responsive website for Sri Ayyappa Crackers fireworks shop featurin
 - **Novelties** (5 products)
 - **Fancy Items** (2 products)
 
-## 📞 Contact Information
+##  Contact Information
 
 - **GOWTHM**: 9640499753
 - **GURUSWAMI**: 9573047342
 - **NAGESWARAO**: 8367615240
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Backend**: Python Flask
 - **Frontend**: HTML5, CSS3, JavaScript
