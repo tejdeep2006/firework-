@@ -2,7 +2,7 @@
 
 A beautiful, responsive website for Sri Ayyappa Crackers fireworks shop featuring modern design, animations, and complete product catalog.
 
-## 🎆 Features
+##  Features
 
 - **Responsive Design**: Works perfectly on desktop, tablet, and mobile
 - **Modern Animations**: Smooth fade-in, slide-up, and hover effects
@@ -11,7 +11,7 @@ A beautiful, responsive website for Sri Ayyappa Crackers fireworks shop featurin
 - **Contact Information**: Prominently displayed phone numbers with highlighting
 - **Professional Styling**: Apple-inspired minimalist design
 
-## 🚀 Quick Start
+##  Quick Start
 
 1. **Clone the repository**
    ```bash
@@ -54,7 +54,7 @@ A beautiful, responsive website for Sri Ayyappa Crackers fireworks shop featurin
 - **Styling**: Custom CSS with animations
 - **Images**: Optimized product photos
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 sri-ayyappa-fireworks/
@@ -69,7 +69,7 @@ sri-ayyappa-fireworks/
 └── README.md              # This file
 ```
 
-## 🎨 Design Features
+##  Design Features
 
 - **Banner**: Large, responsive banner image
 - **Product Cards**: Compact, hover-animated cards
@@ -78,10 +78,4 @@ sri-ayyappa-fireworks/
 - **Smooth Animations**: Natural, professional animations
 - **Mobile-First**: Responsive design for all devices
 
-## 📄 License
 
-This project is for Sri Ayyappa Crackers fireworks shop.
-
----
-
-**Built with ❤️ for Sri Ayyappa Crackers**
