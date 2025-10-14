@@ -25,25 +25,28 @@
         <div class="container">
             <h1 class="main-title slide-up">Our 2025 Collection</h1>
             
+            <!-- Search Bar -->
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search products..." class="search-input">
+                <button class="search-button">Search</button>
+            </div>
+            
             <!-- Sparklers -->
             <section class="product-category scroll-reveal">
                 <h2 class="category-title">Sparklers</h2>
                 <div class="product-grid">
                     <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/sparklers-big.jpg') }}" alt="Kakarapulu 30cm" class="product-image">
                         <h3 class="product-name">Kakarapulu 30cm</h3>
                         <p class="product-price">₹50</p>
                     </div>
                     <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/sparklers-mid.jpg') }}" alt="Kakarapulu 15cm" class="product-image">
                         <h3 class="product-name">Kakarapulu 15cm Colour Green/Red</h3>
                         <p class="product-price">₹60</p>
                     </div>
                     <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/sparklers big.jpg') }}" alt="Kakarapulu 7cm" class="product-image">
+                        <img src="{{ url_for('static', filename='images/sparklers-big.jpg') }}" alt="Kakarapulu 7cm" class="product-image">
                         <h3 class="product-name">Kakarapulu 7cm</h3>
                         <p class="product-price">₹20</p>
                     </div>
@@ -61,7 +64,6 @@
                 <h2 class="category-title">Ground Items</h2>
                 <div class="product-grid">
                     <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/seema-tapakai.jpg') }}" alt="Seema Tapakai" class="product-image">
                         <h3 class="product-name">Nelatapaakayalu Small</h3>
                         <p class="product-price">₹10</p>
@@ -122,10 +124,27 @@
                 <h2 class="category-title">Shots Items</h2>
                 <div class="product-grid">
                     <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/rockets.jpg') }}" alt="Rockets" class="product-image">
                         <h3 class="product-name">Rockets (10 Pieces)</h3>
                         <p class="product-price">₹100</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">20% OFF</div>
+                        <img src="{{ url_for('static', filename='images/1shot.jpg') }}" alt="1 Shot" class="product-image">
+                        <h3 class="product-name">1 Shot (1 Piece)</h3>
+                        <p class="product-price">₹60</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">20% OFF</div>
+                        <img src="{{ url_for('static', filename='images/7shots.jpg') }}" alt="7 Shots" class="product-image">
+                        <h3 class="product-name">7 Shots (5 Pieces)</h3>
+                        <p class="product-price">₹250</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">20% OFF</div>
+                        <img src="{{ url_for('static', filename='images/12-shots.jpg') }}" alt="12 Shots" class="product-image">
+                        <h3 class="product-name">12 Shots</h3>
+                        <p class="product-price">₹200</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
@@ -147,22 +166,15 @@
                 <h2 class="category-title">Outs Big Sounds</h2>
                 <div class="product-grid">
                     <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/100-wala.jpg') }}" alt="100 Wala" class="product-image">
                         <h3 class="product-name">28 Wala (1 Packet)</h3>
                         <p class="product-price">₹20</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
-                        <h3 class="product-name">100 Wala</h3>
-                        <p class="product-price">₹80</p>
-                    </div>
-                    <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/1000-wala.jpg') }}" alt="1000 Wala" class="product-image">
-                        <h3 class="product-name">1000 Wala (1 Packet)</h3>
-                        <p class="product-price">₹300</p>
+                        <img src="{{ url_for('static', filename='images/2000-wala.jpg') }}" alt="2000 Wala" class="product-image">
+                        <h3 class="product-name">2000 Wala (1 Packet)</h3>
+                        <p class="product-price">₹500</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
@@ -226,7 +238,6 @@
                 <h2 class="category-title">Aerial Items</h2>
                 <div class="product-grid">
                     <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/mathabulu.jpg') }}" alt="Mathabulu" class="product-image">
                         <h3 class="product-name">Mathabulu (10 Pieces)</h3>
                         <p class="product-price">₹100</p>
@@ -257,13 +268,11 @@
                 <h2 class="category-title">Fancy Items</h2>
                 <div class="product-grid">
                     <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/vinkaya-big.jpg') }}" alt="Vankaya Big" class="product-image">
                         <h3 class="product-name">Smoke Bomb</h3>
                         <p class="product-price">₹200</p>
                     </div>
                     <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/vinkaya-small.jpg') }}" alt="Vankaya Small" class="product-image">
                         <h3 class="product-name">Showers</h3>
                         <p class="product-price">₹150</p>
@@ -278,7 +287,7 @@
         <div class="container">
             <h2 class="footer-title">Sri Ayyappa Crackers</h2>
             <div class="contact-section">
-                <h3 class="contact-heading"> Contact for Orders</h3>
+                <h3 class="contact-heading">📞 Contact for Orders</h3>
                 <div class="contact-info">
                     <div class="contact-item">
                         <span class="contact-name">GOWTHM</span>
