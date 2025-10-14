@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sri Ayyappa Crackers</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <!-- Header Section -->
     <header class="banner-section fade-in">
-        <img src="{{ url_for('static', filename='banner.jpj.png') }}" alt="Sri Ayyappa Crackers Banner" class="banner-image">
+        <img src="{{ url_for('static', filename='images/banner.jpj.png') }}" alt="Sri Ayyappa Crackers Banner" class="banner-image">
     </header>
+    
+    <!-- Add base URL for static files -->
+    <base href="/">
 
     <!-- Discount Banner -->
     <div class="discount-banner pulse-animation">
