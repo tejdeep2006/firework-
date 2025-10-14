@@ -1,6 +1,6 @@
-# Sri Ayyappa Crackers - Fireworks Shop Website
+# Sri Ayyappa Crackers - Premium Fireworks Shop Website
 
-A beautiful, responsive website for Sri Ayyappa Crackers fireworks shop featuring modern design, animations, and complete product catalog.
+A beautiful, responsive website for Sri Ayyappa Crackers fireworks shop featuring modern design, smooth animations, and a complete product catalog.
 
 ##  Features
 
