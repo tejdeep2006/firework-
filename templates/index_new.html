@@ -25,46 +25,33 @@
         <div class="container">
             <h1 class="main-title slide-up">Our 2025 Collection</h1>
             
-            <!-- Search Bar -->
-            <div class="search-container">
-                <input type="text" id="searchInput" placeholder="Search products..." class="search-input">
-                <button class="search-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                    </svg>
-                </button>
-            </div>
-            
             <!-- Sparklers -->
             <section class="product-category scroll-reveal">
                 <h2 class="category-title">Sparklers</h2>
                 <div class="product-grid">
                     <div class="product-card">
+                        <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/sparklers-big.jpg') }}" alt="Kakarapulu 30cm" class="product-image">
-                        <h3 class="product-name">Kakarapulu 7cm(10 pieces)</h3>
-                        <p class="product-price">₹15</p>
-                    </div>
-                    <div class="product-card">
-                        <img src="{{ url_for('static', filename='images/sparklers-mid.jpg') }}" alt="Kakarapulu 15cm" class="product-image">
-                        <h3 class="product-name">Kakarapulu 15cm Colour Green/Red (10 pieces)</h3>
-                        <p class="product-price">₹80</p>
-                    </div>
-                    <div class="product-card">
-                        <img src="{{ url_for('static', filename='images/sparklers big.jpg') }}" alt="Kakarapulu 30cm plain" class="product-image">
-                        <h3 class="product-name">Kakarapulu 30cm plain (5 pieces)</h3>
+                        <h3 class="product-name">Kakarapulu 30cm</h3>
                         <p class="product-price">₹50</p>
                     </div>
                     <div class="product-card">
-                        <img src="{{ url_for('static', filename='images/sparklers big.jpg') }}" alt="Kakarapulu 30cm colour" class="product-image">
-                        <h3 class="product-name">Kakarapulu 30cm colour (5 pieces)</h3>
-                        <p class="product-price">₹70</p>
+                        <div class="discount-badge">20% OFF</div>
+                        <img src="{{ url_for('static', filename='images/sparklers-mid.jpg') }}" alt="Kakarapulu 15cm" class="product-image">
+                        <h3 class="product-name">Kakarapulu 15cm Colour Green/Red</h3>
+                        <p class="product-price">₹60</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">20% OFF</div>
+                        <img src="{{ url_for('static', filename='images/sparklers-big.jpg') }}" alt="Kakarapulu 7cm" class="product-image">
+                        <h3 class="product-name">Kakarapulu 7cm</h3>
+                        <p class="product-price">₹20</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/pencil.jpg') }}" alt="Pencils" class="product-image">
                         <h3 class="product-name">Pencils (10 Pieces)</h3>
-                        <p class="product-price">₹140</p>
+                        <p class="product-price">₹100</p>
                     </div>
                 </div>
             </section>
@@ -74,56 +61,58 @@
                 <h2 class="category-title">Ground Items</h2>
                 <div class="product-grid">
                     <div class="product-card">
+                        <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/seema-tapakai.jpg') }}" alt="Seema Tapakai" class="product-image">
-                        <h3 class="product-name">Nelatapaakayalu Small (30 pieces)</h3>
+                        <h3 class="product-name">Nelatapaakayalu Small</h3>
                         <p class="product-price">₹10</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Chitapatalu" class="product-image">
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
                         <h3 class="product-name">Chitapatalu (10 Pieces)</h3>
-                        <p class="product-price">₹60</p>
+                        <p class="product-price">₹80</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="VennaMuddalu" class="product-image">
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
                         <h3 class="product-name">VennaMuddalu (10 Pieces)</h3>
-                        <p class="product-price">₹30</p>
+                        <p class="product-price">₹80</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Chichubudlu Small" class="product-image">
-                        <h3 class="product-name">Chichubudlu Small (10 Pieces)</h3>
-                        <p class="product-price">₹250</p>
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
+                        <h3 class="product-name">Chichubudlu Small(10 Pieces)</h3>
+                        <p class="product-price">₹80</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Chichubudlu Big" class="product-image">
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
                         <h3 class="product-name">Chichubudlu Big (10 Pieces)</h3>
-                        <p class="product-price">₹300</p>
+                        <p class="product-price">₹80</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Seematapakayalu" class="product-image">
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
                         <h3 class="product-name">Seematapakayalu (100 Pieces)</h3>
-                        <p class="product-price">₹70</p>
+                        <p class="product-price">₹80</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Pamubillalu Big" class="product-image">
-                        <h3 class="product-name">Pamubillalu Big (10 Pieces)</h3>
-                        <p class="product-price">₹140</p>
-                    </div>
-                    <div class="product-card">
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Pamubillalu Small" class="product-image">
-                        <h3 class="product-name">Pamubillalu Small (10 Pieces)</h3>
-                        <p class="product-price">₹5</p>
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
+                        <h3 class="product-name">pamubillalu Big(10 Pieces)</h3>
+                        <p class="product-price">₹80</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Kunda Bombulu" class="product-image">
-                        <h3 class="product-name">Kunda Bombulu (1 Piece)</h3>
-                        <p class="product-price">₹70</p>
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
+                        <h3 class="product-name">Pamubillalu small 10 Pieces)</h3>
+                        <p class="product-price">₹80</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">20% OFF</div>
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
+                        <h3 class="product-name">Kunda Bombulu(10 Pieces)</h3>
+                        <p class="product-price">₹80</p>
                     </div>
                 </div>
             </section>
@@ -136,37 +125,37 @@
                         <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/rockets.jpg') }}" alt="Rockets" class="product-image">
                         <h3 class="product-name">Rockets (10 Pieces)</h3>
-                        <p class="product-price">₹140</p>
+                        <p class="product-price">₹100</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/1shot.jpg') }}" alt="1 Shot" class="product-image">
                         <h3 class="product-name">1 Shot (1 Piece)</h3>
-                        <p class="product-price">₹100</p>
+                        <p class="product-price">₹60</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/7shots.jpg') }}" alt="7 Shots" class="product-image">
-                        <h3 class="product-name">7 Shots (5 pieces)</h3>
-                        <p class="product-price">₹180</p>
+                        <h3 class="product-name">7 Shots (5 Pieces)</h3>
+                        <p class="product-price">₹250</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/12-shots.jpg') }}" alt="12 Shots" class="product-image">
                         <h3 class="product-name">12 Shots</h3>
-                        <p class="product-price">₹250</p>
+                        <p class="product-price">₹200</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="15 Shots" class="product-image">
-                        <h3 class="product-name">15 Shots</h3>
-                        <p class="product-price">₹300</p>
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
+                        <h3 class="product-name">15 shots</h3>
+                        <p class="product-price">₹80</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="30 Shots" class="product-image">
-                        <h3 class="product-name">30 Shots</h3>
-                        <p class="product-price">₹600</p>
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
+                        <h3 class="product-name">30 shots</h3>
+                        <p class="product-price">₹80</p>
                     </div>
                 </div>
             </section>
@@ -176,81 +165,82 @@
                 <h2 class="category-title">Outs Big Sounds</h2>
                 <div class="product-grid">
                     <div class="product-card">
-                        <img src="{{ url_for('static', filename='images/100-wala.jpg') }}" alt="28 Wala" class="product-image">
+                        <div class="discount-badge">20% OFF</div>
+                        <img src="{{ url_for('static', filename='images/100-wala.jpg') }}" alt="100 Wala" class="product-image">
                         <h3 class="product-name">28 Wala (1 Packet)</h3>
                         <p class="product-price">₹20</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="100 Wala" class="product-image">
-                        <h3 class="product-name">100 Wala (1 packet)</h3>
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
+                        <h3 class="product-name">100 Wala</h3>
                         <p class="product-price">₹80</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/1000-wala.jpg') }}" alt="1000 Wala" class="product-image">
                         <h3 class="product-name">1000 Wala (1 Packet)</h3>
-                        <p class="product-price">₹350</p>
+                        <p class="product-price">₹300</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/2000-wala.jpg') }}" alt="2000 Wala" class="product-image">
                         <h3 class="product-name">2000 Wala (1 Packet)</h3>
-                        <p class="product-price">₹600</p>
+                        <p class="product-price">₹500</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/laxmi-bombs.jpg') }}" alt="Laxmi Big" class="product-image">
                         <h3 class="product-name">Laxmi Big (5 Pieces)</h3>
-                        <p class="product-price">₹80</p>
+                        <p class="product-price">₹50</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/laxmi-bombs.jpg') }}" alt="Laxmi Medium" class="product-image">
+                        <img src="{{ url_for('static', filename='images/laxmi-bombs.jpg') }}" alt="Laxmi Small" class="product-image">
                         <h3 class="product-name">Laxmi Medium (5 Pieces)</h3>
-                        <p class="product-price">₹70</p>
+                        <p class="product-price">₹30</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Lakshmi Small" class="product-image">
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
                         <h3 class="product-name">Lakshmi Small (5 Pieces)</h3>
-                        <p class="product-price">₹60</p>
-                    </div>
-                    <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/thadulu%20big.jpg') }}" alt="Pitta Bombs" class="product-image">
-                        <h3 class="product-name">Pitta Bombs (5 Pieces)</h3>
-                        <p class="product-price">₹60</p>
-                    </div>
-                    <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/thadulu%20small.jpg') }}" alt="2 Sound" class="product-image">
-                        <h3 class="product-name">2 Sound (5 Pieces)</h3>
                         <p class="product-price">₹80</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Vankaya Ultra Deluxe" class="product-image">
-                        <h3 class="product-name">Vankaya Ultra Deluxe (10 pieces)</h3>
-                        <p class="product-price">₹350</p>
+                        <img src="{{ url_for('static', filename='images/thadulu-big.jpg') }}" alt="Pitta Bombs" class="product-image">
+                        <h3 class="product-name">Pitta Bombs (5 Pieces)</h3>
+                        <p class="product-price">₹30</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Vankaya Medium" class="product-image">
+                        <img src="{{ url_for('static', filename='images/thadulu-small.jpg') }}" alt="2 Sound" class="product-image">
+                        <h3 class="product-name">2 Sound (5 Pieces)</h3>
+                        <p class="product-price">₹50</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">20% OFF</div>
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
+                        <h3 class="product-name">Vankaya Ultra Deluxe (10 Pieces)</h3>
+                        <p class="product-price">₹80</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">20% OFF</div>
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
                         <h3 class="product-name">Vankaya Medium (10 Pieces)</h3>
-                        <p class="product-price">₹300</p>
+                        <p class="product-price">₹80</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Bullet Bombs" class="product-image">
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
                         <h3 class="product-name">Bullet Bombs (10 Pieces)</h3>
-                        <p class="product-price">₹100</p>
+                        <p class="product-price">₹80</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Flower Outs" class="product-image">
-                        <h3 class="product-name">Flower Outs (5 Pieces)</h3>
-                        <p class="product-price">₹150</p>
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
+                        <h3 class="product-name">Flower Outs(5 Pieces)</h3>
+                        <p class="product-price">₹80</p>
                     </div>
                 </div>
             </section>
@@ -263,24 +253,25 @@
                         <div class="discount-badge">20% OFF</div>
                         <img src="{{ url_for('static', filename='images/mathabulu.jpg') }}" alt="Mathabulu" class="product-image">
                         <h3 class="product-name">Mathabulu (10 Pieces)</h3>
-                        <p class="product-price">₹120</p>
+                        <p class="product-price">₹100</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Butterfly Match Box" class="product-image">
-                        <h3 class="product-name">Butterfly Match Box (pack of 3)</h3>
-                        <p class="product-price">₹60</p>
-                    </div>
-                    <div class="product-card">
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Threads Small" class="product-image">
-                        <h3 class="product-name">Threads Small (1 Piece)</h3>
-                        <p class="product-price">₹5</p>
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
+                        <h3 class="product-name">Butterfly Match Box (10 Pieces)</h3>
+                        <p class="product-price">₹80</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Threads Big" class="product-image">
-                        <h3 class="product-name">Threads Big (1 piece)</h3>
-                        <p class="product-price">₹10</p>
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
+                        <h3 class="product-name">Threads Small(1 Pieces)</h3>
+                        <p class="product-price">₹80</p>
+                    </div>
+                    <div class="product-card">
+                        <div class="discount-badge">20% OFF</div>
+                        <img src="{{ url_for('static', filename='images/magic-pop.jpg') }}" alt="Magic Pop" class="product-image">
+                        <h3 class="product-name">Threads Big</h3>
+                        <p class="product-price">₹80</p>
                     </div>
                 </div>
             </section>
@@ -291,14 +282,15 @@
                 <div class="product-grid">
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="{{ url_for('static', filename='images/vinkaya-big.jpg') }}" alt="Smoke Bomb" class="product-image">
-                        <h3 class="product-name">Smoke Bomb (1 box = 20 pieces)</h3>
-                        <p class="product-price">₹30</p>
+                        <img src="{{ url_for('static', filename='images/vinkaya-big.jpg') }}" alt="Vankaya Big" class="product-image">
+                        <h3 class="product-name">Smoke Bomb</h3>
+                        <p class="product-price">₹200</p>
                     </div>
                     <div class="product-card">
-                        <img src="{{ url_for('static', filename='images/vinkaya-small.jpg') }}" alt="Shower" class="product-image">
-                        <h3 class="product-name">Shower (1 piece)</h3>
-                        <p class="product-price">₹250</p>
+                        <div class="discount-badge">20% OFF</div>
+                        <img src="{{ url_for('static', filename='images/vinkaya-small.jpg') }}" alt="Vankaya Small" class="product-image">
+                        <h3 class="product-name">Showers</h3>
+                        <p class="product-price">₹150</p>
                     </div>
                 </div>
             </section>
@@ -329,6 +321,7 @@
         </div>
     </footer>
 
+    <!-- JavaScript for scroll animations -->
     <script>
         // Scroll reveal animation
         const observerOptions = {
@@ -347,97 +340,6 @@
         document.querySelectorAll('.scroll-reveal').forEach(el => {
             observer.observe(el);
         });
-
-        // Enhanced Search Functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            const searchInput = document.getElementById('searchInput');
-            const searchButton = document.querySelector('.search-button');
-            const productCards = document.querySelectorAll('.product-card');
-            
-            // Function to highlight and scroll to matches
-            function searchProducts() {
-                const searchTerm = searchInput.value.trim().toLowerCase();
-                
-                if (!searchTerm) {
-                    // Reset all cards if search is empty
-                    productCards.forEach(card => {
-                        card.style.opacity = '1';
-                        card.style.transform = 'scale(1)';
-                        card.style.transition = 'all 0.3s ease';
-                    });
-                    return;
-                }
-
-                let foundMatch = false;
-                
-                productCards.forEach(card => {
-                    const productName = card.querySelector('.product-name').textContent.toLowerCase();
-                    const matches = productName.includes(searchTerm);
-                    
-                    if (matches) {
-                        foundMatch = true;
-                        card.style.opacity = '1';
-                        card.style.transform = 'scale(1.03)';
-                        card.style.boxShadow = '0 5px 15px rgba(0, 113, 227, 0.3)';
-                        card.style.transition = 'all 0.3s ease';
-                        
-                        // Scroll to the first matching item
-                        if (card === productCards[0] || !document.querySelector('.highlighted')) {
-                            card.scrollIntoView({
-                                behavior: 'smooth',
-                                block: 'center'
-                            });
-                        }
-                        
-                        card.classList.add('highlighted');
-                    } else {
-                        card.style.opacity = '0.4';
-                        card.style.transform = 'scale(0.95)';
-                        card.classList.remove('highlighted');
-                    }
-                });
-                
-                // If no matches found, show a message
-                if (!foundMatch) {
-                    console.log('No matching products found');
-                }
-            }
-            
-            // Add event listeners
-            searchButton.addEventListener('click', searchProducts);
-            searchInput.addEventListener('keyup', function(e) {
-                if (e.key === 'Enter') {
-                    searchProducts();
-                }
-            });
-        });
     </script>
-    <style>
-        /* Add highlight animation for search results */
-        @keyframes highlightPulse {
-            0% { box-shadow: 0 0 0 0 rgba(0, 113, 227, 0.7); }
-            70% { box-shadow: 0 0 0 10px rgba(0, 113, 227, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(0, 113, 227, 0); }
-        }
-        
-        .highlighted {
-            animation: highlightPulse 2s infinite;
-            position: relative;
-            z-index: 1;
-        }
-        
-        .highlighted::after {
-            content: '';
-            position: absolute;
-            top: -2px;
-            left: -2px;
-            right: -2px;
-            bottom: -2px;
-            border: 2px solid #0071e3;
-            border-radius: 12px;
-            pointer-events: none;
-            z-index: -1;
-        }
-    </style>
 </body>
 </html>
