@@ -1,0 +1,54 @@
+{
+  "banner": "/static/images/banner.jpj.png",
+  "sparklers": {
+    "kakarapulu7cm": "/static/images/Kakarapulu 7cm(10 pieces).jpg",
+    "kakarapulu15cm": "/static/images/Kakarapulu 15cm Colour GreenRed (10 pieces).jpg",
+    "kakarapulu30cmPlain": "/static/images/Kakarapulu 30cm colour (5 pieces).jpg",
+    "kakarapulu30cmColor": "/static/images/Kakarapulu 30cm colour (5 pieces).jpg",
+    "pencils": "/static/images/Pencils (10 Pieces).jpg"
+  },
+  "groundItems": {
+    "nelatapaakayaluSmall": "/static/images/Seematapakayalu (100 Pieces).jpg",
+    "chitapatalu": "/static/images/Chitapatalu (10 Pieces).jpg",
+    "vennamuddalu": "/static/images/VennaMuddalu (10 Pieces).jpg",
+    "chichubudluSmall": "/static/images/Chichubudlu Small(10 Pieces).jpg",
+    "chichubudluBig": "/static/images/Chichubudlu Big (10 Pieces).jpg",
+    "seematapakayalu": "/static/images/Seematapakayalu (100 Pieces).jpg",
+    "pamubillaluBig": "/static/images/pamubillalu Big(10 Pieces).jpg",
+    "pamubillaluSmall": "/static/images/Pamubillalu small (10 Pieces).jpg",
+    "kundaBombulu": "/static/images/Kunda Bombulu (1 Pieces).jpg"
+  },
+  "shots": {
+    "rockets": "/static/images/Rockets (10 Pieces).jpg",
+    "oneShot": "/static/images/1 Shot.jpg",
+    "sevenShots": /static/images/7 Shots (5 pieces).jpg",
+    "twelveShots": "/static/images/12 Shots.jpg",
+    "fifteenShots": "/static/images/15 shots.jpg",
+    "thirtyShots": "/static/images/30 Shots.jpg"
+  },
+  "outsBigSounds": {
+    "wala28": "/static/images/28 Wala (1 Packet).jpg",
+    "wala100": "/static/images/100 Wala (1 packet).jpg",
+    "wala1000": "/static/images/1000 Wala (1 Packet).jpg",
+    "wala2000": "/static/images/2000 Wala (1 Packet).jpg",
+    "laxmiBig": "/static/images/Laxmi Big (5 Pieces).jpg",
+    "laxmiMedium": "/static/images/Laxmi Medium (5 Pieces).jpg",
+    "lakshmiSmall": "/static/images/Lakshmi Small (5 Pieces).jpg",
+    "pittaBombs": "/static/images/Bhuchakaram big.jpg",
+    "twoSound": "/static/images/2 Sound (5 Pieces).jpg",
+    "vankayaUltraDeluxe": "/static/images/Vankaya Ultra Deluxe (10 pieces ).jpg",
+    "vankayaMedium": "/static/images/Vankaya Medium (10 Pieces).jpg",
+    "bulletBombs": "/static/images/Bullet Bombs (10 Pieces).jpg",
+    "flowerOuts": "/static/images/Flower Outs(5 Pieces).jpg"
+  },
+  "aerialItems": {
+    "mathabulu": "/static/images/mathabulu.jpg",
+    "butterflyMatchBox": "/static/images/Family pack.jpg",
+    "threadsSmall": "/static/images/Threads Small(1 Piece).jpg",
+    "threadsBig": "/static/images/Threads Big(1 piece).jpg"
+  },
+  "fancyItems": {
+    "smokeBomb": "/static/images/Vankaya Medium (10 Pieces).jpg",
+    "shower": "/static/images/Shower ( 1 piece).jpg"
+  }
+}
