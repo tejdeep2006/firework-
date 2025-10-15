@@ -258,18 +258,6 @@
                         <h3 class="product-name">Vankaya Medium (10 Pieces)</h3>
                         <p class="product-price">₹300</p>
                     </div>
-                    <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
-                        <img src="static/images/bullet-bombs-10-pieces.jpg" alt="Bullet Bombs" class="product-image">
-                        <h3 class="product-name">Bullet Bombs (10 Pieces)</h3>
-                        <p class="product-price">₹100</p>
-                    </div>
-                    <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
-                        <img src="static/images/flower-pots.jpg" alt="Flower Outs" class="product-image">
-                        <h3 class="product-name">Flower Outs (5 Pieces)</h3>
-                        <p class="product-price">₹150</p>
-                    </div>
                 </div>
             </section>
 
@@ -279,58 +267,21 @@
                 <div class="product-grid">
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="static/images/mathabulu.jpg" alt="Mathabulu" class="product-image">
-                        <h3 class="product-name">Mathabulu (10 Pieces)</h3>
+                        <img src="static/images/rockets-10-pieces.jpg" alt="Rockets" class="product-image">
+                        <h3 class="product-name">Rockets (10 Pieces)</h3>
                         <p class="product-price">₹120</p>
                     </div>
                     <div class="product-card">
                         <div class="discount-badge">20% OFF</div>
-                        <img src="static/images/family-pack.jpg" alt="Butterfly Match Box" class="product-image">
-                        <h3 class="product-name">Butterfly Match Box (pack of 3)</h3>
-                        <p class="product-price">₹60</p>
-                    </div>
-                    <div class="product-card">
-                        <img src="static/images/thadulu-small.jpg" alt="Threads Small" class="product-image">
-                        <h3 class="product-name">Threads Small (1 Piece)</h3>
-                        <p class="product-price">₹5</p>
-                    </div>
-                    <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
-                        <img src="static/images/thadulu-big.jpg" alt="Threads Big" class="product-image">
-                        <h3 class="product-name">Threads Big (1 piece)</h3>
-                        <p class="product-price">₹10</p>
+                        <img src="static/images/1-shot.jpg" alt="1 Shot" class="product-image">
+                        <h3 class="product-name">1 Shot (1 Piece)</h3>
+                        <p class="product-price">₹100</p>
                     </div>
                 </div>
             </section>
 
-            <!-- Fancy Items -->
-            <section class="product-category scroll-reveal">
-                <h2 class="category-title">Fancy Items</h2>
-                <div class="product-grid">
-                    <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
-                        <div class="product-no-image">No Image</div>
-                        <h3 class="product-name">Smoke Bomb (1 box = 20 pieces)</h3>
-                        <p class="product-price">₹30</p>
-                    </div>
-                    <div class="product-card">
-                        <img src="static/images/shower.jpg" alt="Shower" class="product-image">
-                        <h3 class="product-name">Shower (1 piece)</h3>
-                        <p class="product-price">₹250</p>
-                    </div>
-                    <div class="product-card">
-                        <div class="product-no-image">No Image</div>
-                        <h3 class="product-name">Butterfly Match Box (pack of 3)</h3>
-                        <p class="product-price">₹60</p>
-                    </div>
-                    <div class="product-card">
-                        <div class="discount-badge">20% OFF</div>
-                        <img src="static/images/bhoo-chakram.jpg" alt="Pitta Bombs" class="product-image">
-                        <h3 class="product-name">Pitta Bombs (5 Pieces)</h3>
-                        <p class="product-price">₹60</p>
-                    </div>
-                </div>
-            </section>
+            <!-- Add more product categories as needed -->
+            
         </div>
     </main>
 
@@ -358,115 +309,6 @@
         </div>
     </footer>
 
-    <script>
-        // Scroll reveal animation
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('revealed');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.scroll-reveal').forEach(el => {
-            observer.observe(el);
-        });
-
-        // Enhanced Search Functionality
-        document.addEventListener('DOMContentLoaded', function() {
-            const searchInput = document.getElementById('searchInput');
-            const searchButton = document.querySelector('.search-button');
-            const productCards = document.querySelectorAll('.product-card');
-            
-            // Function to highlight and scroll to matches
-            function searchProducts() {
-                const searchTerm = searchInput.value.trim().toLowerCase();
-                
-                if (!searchTerm) {
-                    // Reset all cards if search is empty
-                    productCards.forEach(card => {
-                        card.style.opacity = '1';
-                        card.style.transform = 'scale(1)';
-                        card.style.transition = 'all 0.3s ease';
-                    });
-                    return;
-                }
-
-                let foundMatch = false;
-                
-                productCards.forEach(card => {
-                    const productName = card.querySelector('.product-name').textContent.toLowerCase();
-                    const matches = productName.includes(searchTerm);
-                    
-                    if (matches) {
-                        foundMatch = true;
-                        card.style.opacity = '1';
-                        card.style.transform = 'scale(1.03)';
-                        card.style.boxShadow = '0 5px 15px rgba(0, 113, 227, 0.3)';
-                        card.style.transition = 'all 0.3s ease';
-                        
-                        // Scroll to the first matching item
-                        if (card === productCards[0] || !document.querySelector('.highlighted')) {
-                            card.scrollIntoView({
-                                behavior: 'smooth',
-                                block: 'center'
-                            });
-                        }
-                        
-                        card.classList.add('highlighted');
-                    } else {
-                        card.style.opacity = '0.4';
-                        card.style.transform = 'scale(0.95)';
-                        card.classList.remove('highlighted');
-                    }
-                });
-                
-                // If no matches found, show a message
-                if (!foundMatch) {
-                    console.log('No matching products found');
-                }
-            }
-            
-            // Add event listeners
-            searchButton.addEventListener('click', searchProducts);
-            searchInput.addEventListener('keyup', function(e) {
-                if (e.key === 'Enter') {
-                    searchProducts();
-                }
-            });
-        });
-    </script>
-    <style>
-        /* Add highlight animation for search results */
-        @keyframes highlightPulse {
-            0% { box-shadow: 0 0 0 0 rgba(0, 113, 227, 0.7); }
-            70% { box-shadow: 0 0 0 10px rgba(0, 113, 227, 0); }
-            100% { box-shadow: 0 0 0 0 rgba(0, 113, 227, 0); }
-        }
-        
-        .highlighted {
-            animation: highlightPulse 2s infinite;
-            position: relative;
-            z-index: 1;
-        }
-        
-        .highlighted::after {
-            content: '';
-            position: absolute;
-            top: -2px;
-            left: -2px;
-            right: -2px;
-            bottom: -2px;
-            border: 2px solid #0071e3;
-            border-radius: 12px;
-            pointer-events: none;
-            z-index: -1;
-        }
-    </style>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
